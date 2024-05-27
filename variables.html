@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd.js/8.3.1/css/shepherd.min.css" />
+
+    <style>
+        /* Center the div */
+        .center-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black;
+            color: #00FF00; /* Cyberpunk green */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        /* Style the code */
+        .center-div code {
+            font-family: monospace;
+            white-space: pre-wrap; /* Enable wrap */
+        }
+    </style>
+</head>
+<body>
+    <div class="center-div">
+        <p>Strings are used to store text</p>
+        <div id="str">
+            var name = "John Doe";
+        </div>
+
+        <p>This is a number variable</p>
+        <div id="num">
+            var age = 30;
+        </div>
+
+        <p>This is a boolean variable</p>
+        <div id="bool">
+            var isAdult = true;
+        </div>
+
+        <p>This is an array variable</p>
+        <div id="array">
+            var hobbies = ["reading", "coding", "hiking"];
+        </div>
+
+        <p>This is an object variable</p>
+        <div id="object">
+            var person = {
+                name: "John Doe",
+                age: 30,
+                isAdult: true,
+                hobbies: ["reading", "coding", "hiking"]
+            };
+        </div>
+        <p>Objects are used to store structured data</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shepherd.js/8.3.1/js/shepherd.min.js"></script>
+    <script src="tour.js"></script>
+</body>
+</html>
